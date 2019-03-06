@@ -6,6 +6,7 @@ namespace Saivv.DomainModel
 {
     public class CostBenefit
     {
+        public long Id { get; set; }
         public decimal Cost { get; set; }
         public decimal Benefit { get; set; }
 
