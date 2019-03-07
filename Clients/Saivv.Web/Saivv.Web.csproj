@@ -16,4 +16,9 @@
     <ProjectReference Include="..\..\Saivv.DomainModel\Saivv.DomainModel.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Pages\CostBenefits\" />
+  </ItemGroup>
+
 </Project>
