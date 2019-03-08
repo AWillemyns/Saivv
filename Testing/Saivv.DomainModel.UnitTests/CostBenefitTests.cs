@@ -29,6 +29,18 @@ namespace Saivv.DomainModel.UnitTests
             Assert.AreEqual(2, costBenefitRatio);
         }
 
+        [Test]
+        public void CreateCostBenefitLine()
+        {
+            CostBenefitLine line = new CostBenefitLine();
+            line.CostOrSaving = CostOrSaving.C;
+            line.Amount = 250;
+            line.Category = "Expendables";
+            line.Id = 1;
+            Assert.IsNotNull(line);
+        }
+
+
     }
 
 

@@ -4438,6 +4438,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Saivv.DomainModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Saivv.DomainModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Saivv.DomainModel.dll": {}
+        }
       }
     }
   },
@@ -12062,13 +12072,19 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Saivv.DomainModel/1.0.0": {
+      "type": "project",
+      "path": "../Saivv.DomainModel/Saivv.DomainModel.csproj",
+      "msbuildProject": "../Saivv.DomainModel/Saivv.DomainModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Saivv.DomainModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12100,7 +12116,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects.Sandbox\\Saivv\\Saivv.DomainModel\\Saivv.DomainModel.csproj": {
+              "projectPath": "C:\\Projects.Sandbox\\Saivv\\Saivv.DomainModel\\Saivv.DomainModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
